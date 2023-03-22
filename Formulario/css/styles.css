@@ -255,5 +255,17 @@ body{
    padding: 2%;
 }
 
+/* ESTILOS PARA VALIDACION */
+
+.is-valid{
+  border-bottom: 2px solid rgb(21, 211, 21) !important;
+  
+}
+
+.is-invalid{
+  border-bottom: 2px solid rgb(221, 21, 14) !important;
+  
+}
+
  
 

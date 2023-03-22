@@ -3,6 +3,9 @@
 //seleccionar el card de estudiante 
 const cardEstudiante = document.querySelector("#cardsEstudiantes");
 
+//variable de envio
+let flagSent = 0;
+
 const addStudent=(name,lastName, mail, tele, msn) =>{
     //creamos un objeto
     let person ={
@@ -53,6 +56,9 @@ function modalAlert(cad, tipo, persona){
         //evento del boton enviar
         btnEnviar.onclick=function(){
             paintCard(persona, "estudiante");
+
+            flagSent=1;
+            
             //removemos cuando ya le haya dado aceptar
             document.getElementById("alerta").remove();
         }
