@@ -10,3 +10,4 @@
 //luego hacemos visible el template 
 
 //una vez pintadas las card, reseteamos el formulario 
+//
