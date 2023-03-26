@@ -6,8 +6,8 @@ const cardEstudiante = document.querySelector("#cardsEstudiantes");
 const cardProfesor = document.querySelector("#cardsProfesores");
 
 //seleccionar select
-const select = document.getElementById("select").value;
-console.log(select);
+//const select = document.getElementById("select").value;
+//console.log(select);
 
 const form = document.getElementById("fmContact");
 
@@ -64,7 +64,7 @@ function modalAlert(cad, tipo, persona){
         document.body.appendChild(alerta);
         //evento del boton enviar
         btnEnviar.onclick=function(){
-            paintCard(persona, select);
+            paintCard(persona, "");
             //removemos cuando ya le haya dado aceptar
             document.getElementById("alerta").remove();
             
@@ -89,10 +89,10 @@ function modalAlert(cad, tipo, persona){
 const paintCard = (datos, tipo) =>{
 
     const select = document.getElementById("select").value;
-    console.log(select);
+   
     //ponerlo en mayusculas
     tipo = select.toUpperCase();
-    console.log(tipo);
+    
     //crear un fragmento (mini Dom)
     const fragmento = document.createDocumentFragment();
     //solo se quiere el contenido del template no toda la etiqueta
