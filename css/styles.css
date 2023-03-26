@@ -1,0 +1,293 @@
+/*
+paleta de colores
+#A60015, #FFFFFF, #F5F5F3,#6AB7D5, #979797 */
+
+*{
+
+    margin: 0%; 
+    padding: 0%;
+    font-family: "Source Sans Pro";
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body{
+    height: 150vh;
+    
+
+}
+
+.container_header{
+    width:100%;
+    height:41%;
+    background: #141414;
+    background-image: linear-gradient(10deg,#201f1f7a,#363535c9, #2e19198c),url(../img/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+ .menu{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 1;
+    background: linear-gradient(90deg, rgba(3,79,78,1) 6%, rgba(104,180,142,1) 48%, rgba(36,163,189,1) 100%);
+ }
+
+ .menu a{
+    color:#F5F5F3;
+    text-decoration: none;
+ }
+.hr{
+
+    border-color: #fef9d7;
+}
+ .menu > li {
+
+    display: inline-block;
+    padding: 1.2% 2.2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color: #68b48e;
+    font-size: 20px;
+ }
+
+ .menu >li:hover{
+
+    background-color: #034f4e;
+    border: 2px solid;
+ }
+ .menu .btn_contacto{
+    background-color: #68b48e;
+    border: 3px solid;
+ }
+
+ .title{
+    text-align: center;
+    font-size: 4em;
+    margin: 1%;
+    color:antiquewhite;
+ }
+
+ .fm_contact{
+   width: 45%;
+   height: auto;
+   margin: 2% auto;
+   border: 5px solid #141414;
+   border-radius: 10px;
+   padding: 2% 1%;
+   text-align: center;
+ }
+
+ .fm_contact > hr{
+   margin-bottom: 3%;
+ }
+
+ .tittle_form{
+   margin: 2% 0;
+   text-align: center;
+   color:#68b48e;
+ }
+
+ .fm_contact > input,label,button{
+   display: inline-block;
+   width: 80%;
+   margin: 1% 0%;
+   font-size: 22px;
+ }
+
+ .fm_contact > input,.msn{
+   padding: 10px 2px;
+   border: none;
+   border-bottom: 2px solid #68b48e;
+   outline: none;
+   background-color: #a5f9cf;
+ }
+
+ .msn{
+   width: 80%;
+ }
+
+ .fm_contact>label{
+   text-align: left;
+   padding: 5px;
+ }
+
+ input:focus, .msn:focus{
+   border-bottom: none;
+   border-right: 3px solid #68b48e;
+   background-color: #a5f9cf;
+ }
+
+ .btn_enviar,.btnRegistrar,.btnCancelar{
+   width: 30%;
+   margin-top: 3%;
+   padding: 10px 20px;
+   background-color: #68b48e;
+   border-radius: 10px;
+   font-size: 20px;
+   border: 3px solid #034f4e;
+   color: #fff;
+ }
+
+ .btn_enviar:hover{
+   background-color: #034f4e;
+   text-decoration: underline;
+   transition: .7s;
+ } 
+
+ .footer{
+   width: 100%;
+   height: auto;
+   display: flex; /* cajas felixbles, elasticas, acomoda elementos */
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: baseline;
+   background: linear-gradient(90deg, rgba(3,79,78,1) 6%, rgba(104,180,142,1) 48%, rgba(36,163,189,1) 100%);
+  
+ }
+
+ .foot{
+   display: inline;
+   margin: 3%;
+   text-align: center;
+ }
+
+ .copy{
+   width: 30%;
+   height: auto;
+   color: #fff;
+   line-height: 40px; /* espacion entre lineas */
+ }
+
+ .my_nets,.map{
+   width: 30%;
+   height: auto;
+ }
+
+ .title_about, .title_nets, .title_ubi{
+   color:#fff;
+   margin-bottom: 3%;
+   padding: 1%;
+ }
+
+ .social_net>li{
+   padding: 1%;
+ }
+
+ .nets{
+   width: 8%;
+ }
+
+ .foot >iframe{
+   width: 100%;
+   height: auto;
+   border: 0;
+ }
+
+ .credits{
+   width: 100%;
+   padding: 2%;
+   background: linear-gradient(90deg, rgba(5,41,40,1) 6%, rgba(27,121,75,1) 48%, rgba(16,77,89,1) 100%);
+   text-align: right;
+   color: #fff;
+ }
+
+ .credits> a{
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .card{ 
+   width: 60%;
+   margin: 5% auto;
+   border: 5px solid #000;
+   background-color: #2cb975;
+   text-align: center;
+   color: #fff;
+} 
+
+.cardP{ 
+  width: 60%;
+  margin: 5% auto;
+  border: 5px solid #000;
+  background-color: #65bfd1e1;
+  text-align: center;
+  color: #fff;
+} 
+
+ .title-card{
+   font-size: 24px;
+   padding: 2%;
+}
+.data-card, .text-mail, .text-msn{
+   font-size: 20px;
+   color: #fff;
+   padding: 1% 0;
+}
+
+.text-telefono{
+   font-size: 22px;
+   padding: 2% 0;
+}
+.btnRegistrar:hover, .btnCancelar:hover{
+   background: #BF0F30; 
+   text-decoration:underline;
+} 
+.alerta{
+   width: 30%;
+   height: auto; 
+   background: #9b1523;
+   position: fixed;
+   top: calc(100vh - 65%);
+   left: calc(100vw - 65%);
+   text-align: center; 
+   border: 2px solid #402319;
+   padding: 5px;
+} 
+
+.textAlerta{
+   width: 100%;
+   margin-top: 12%;
+   margin-bottom: 10%;
+   color: aliceblue;
+   font-size: 20px; 
+}
+.btnAlerta{
+   width: 40%;
+   height: auto; 
+   margin-right: 1% ;
+   margin-bottom: 3%;
+   background: #402319;
+   border: none;
+   border-radius: 8px;
+   font-size: 14px;
+   color: #F2F2F2;
+   padding: 2%;
+}
+
+.select{
+  width: 80%;
+  padding: 15px 2px;
+  margin: 1%;
+  font-size: 20px;
+  background-color: #a5f9cf;
+  outline: none;
+  border: none;
+}
+
+/* ESTILOS PARA VALIDACION */
+
+.is-valid{
+  border-bottom: 2px solid rgb(21, 211, 21) !important;
+  
+}
+
+.is-invalid{
+  border-bottom: 2px solid rgb(221, 21, 14) !important;
+  
+}
+
+ 
+
