@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0 maximun-scale=1.0,user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./Formulario/css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+      />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Formulario de Contacto</title>
+  </head>
+  <body>
+    <header id="header" class="container_header">
+      <nav class="menu">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Servicios</a></li>
+        <li><a href="">Portafolio</a></li>
+        <li class="btn_contacto"><a href="#fmContacto">Contacto PQR</a></li>
+      </nav>
+      <hr />
+      <section class="title">
+        <h1>Contacto PQR</h1>
+      </section>
+    </header>
+    <section>
+      <form id="fmContact" class="fm_contact">
+        <h2 class="title_form">Llena el Formulario</h2>
+        <hr />
+        <label for="name">Nombres:</label>
+        <input type="text" id="name" />
+        <label for="lastName">Apellidos:</label>
+        <input type="text" id="lastName" />
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" />
+        <label for="telephone">Teléfono:</label>
+        <input type="tel" id="telephone" />
+        <label for="msn">Déjanos tu mensaje</label>
+        <textarea id="fm_contact" rows="8" cols="50" class="msn" placeholder="Escribe tu Mensaje" required>
+        </textarea>
+        <button class="btn_enviar" id="btnEnviar">Enviar Mensaje</button>
+      </form>
+    </section>
+    <section class="allCards">
+        <div class="cardsEstudiantes" id="cardsEstudiantes"></div>
+        <div class="" id="cardseProfesores">         
+        
+        </div>
+        <div class="" id="cardsAdministrativo"></div>
+        
+    </section>
+    <template id="templateEstudiante">
+        <div class="card">
+          <h3 class="title-card"></h3>
+          <h4 class="data-card"></h4>
+          <p class="text-mail"></p>
+          <p class="text-telefono"></p>
+          <p class="text-msn"></p>          
+        </div>
+      </template>  
+    <footer class="footer">
+      <div class="foot copy">
+        <h3 class="title_about">Acerca de</h3>
+        Desarrollado por la Ing. Kellyn Delgado. Portions of this content are
+        ©1998–2023 by individual mozilla.org contributors. Content available
+        under a Creative Commons license.
+      </div>
+      <div class="foot my_nets">
+        <h3 class="title_nets">Redes Sociales</h3>
+        <ul class="social_net">
+          <li>
+            <a href=""><img class="nets" src="./Formulario/img/instagram.png" alt="" /></a>
+          </li>
+          <li></li>
+          <li>
+            <a href=""><img class="nets" src="./Formulario/img/instagram.png" alt="" /></a>
+          </li>
+          <li><a href=""><i class="fas fa-volume-up nets"></i></a></li>
+        </ul>
+      </div>
+      <div class="foot map">
+        <h3 class="title_ubi">Ubicación</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7851706070282!2d-74.0830493856258!3d4.632378696634874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a0f9bb0ce7%3A0x5d71ff487837183c!2sUniempresarial!5e0!3m2!1ses!2sco!4v1678568405853!5m2!1ses!2sco"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </footer>
+    <aside class="credits">
+      <h3>Créditos</h3>
+      <a href="https://www.flaticon.es/iconos-gratis/gorjeo" title="gorjeo iconos">Gorjeo iconos creados por Pixel perfect - Flaticon</a>
+    </aside>    
+   
+    <script type="module" src="./this/main.js"></script>
+    <script src="https://kit.fontawesome.com/2cb3189c77.js" crossorigin="anonymous"></script>
+    
+    
+    <!--
+        <a href="https://www.flaticon.es/iconos-gratis/gorjeo" title="gorjeo iconos">Gorjeo iconos creados por Pixel perfect - Flaticon</a>
+    -->
+  </body>
+</html>
