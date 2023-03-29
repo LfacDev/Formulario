@@ -1,6 +1,6 @@
 /*
 paleta de colores
-#A60015, #FFFFFF, #F5F5F3,#6AB7D5, #979797 */
+#141414, #fef9d7, #68b48e,#034f4e, #979797 */
 
 *{
 
@@ -287,6 +287,130 @@ body{
 .is-invalid{
   border-bottom: 2px solid rgb(221, 21, 14) !important;
   
+}
+
+/*MEDIA QUERY*/
+
+@media(min-width: 768px) and (max-width: 1000px) {
+  .menu>li {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 3.5em;
+  }
+
+  .fm_contact {
+    width: 70%;
+  }
+
+  .container_header {
+    height: 25%;
+  }
+}
+
+@media(min-width: 680px) and (max-width: 767px) {
+ 
+  .menu {
+    font-size: 19px;
+    margin-bottom: 1.5%;
+  }
+
+  .title{
+    font-size: 3.0em;
+    margin-bottom: 2%;
+  }
+
+  .fm_contact {
+    width: 75%;
+  }
+  
+.btn_enviar, .btnRegistrar, .btnCancelar{
+
+  width: 35%;
+  margin-top: 2%;
+  padding: 8px 18px;
+  font-size: 18px;
+}
+.container_header {
+  height: 20%;
+}
+}
+
+@media(min-width: 580px) and (max-width: 679px){
+
+  .title {
+    font-size: 2.5em;
+    margin: 2%;
+  }
+
+  .menu>li {
+    margin-top: 2.5%;
+  }
+
+  .fm_contact {
+    width: 80%;
+    height: auto;
+    border: 3.5px solid;
+    border-radius: 8px;
+
+  }
+  .fm_contact > input, label,button {
+    font-size: 21px;
+  }
+  .btn_enviar,.btnRegistrar,.btnCancelar{
+    width: 40%;
+    margin-top: 2.0%;
+  }
+  .container_header{
+      height: 20%;
+  }
+  .copy {
+    line-height: 30px;
+  }
+}
+
+@media(min-width: 380px) and (max-width: 579px){
+
+  .title {
+    font-size: 2.0em;
+    margin: 2%;
+  }
+  .menu{
+    text-align: right;
+    margin: 2%;
+  }
+  .menu > li{
+    display: block;
+    text-align: center;
+    padding: 1%;
+
+  }
+  .fm_contact{
+    width: 85%;
+    border: 3px solid;
+  }
+  .fm_contact > input,label,button{
+    font-size: 20px;
+  }
+  .btn_enviar,.btnRegistrar,.btnCancelar{
+    width: 45%;
+    margin-top: 2.5%;
+  }
+  .container_header{
+    height: 26%;
+  }
+  .footer{
+    display: block;
+    text-align: center;
+  }
+  .foot > iframe {
+    width: 90%;
+  }
+  .credits{
+    height: auto;
+    padding: 2%;
+  }
 }
 
  
