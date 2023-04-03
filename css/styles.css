@@ -307,6 +307,11 @@ body{
   .container_header {
     height: 25%;
   }
+
+  .card{ 
+    width: 85%;
+    padding: 2%;
+ } 
 }
 
 @media(min-width: 680px) and (max-width: 767px) {
@@ -325,16 +330,22 @@ body{
     width: 75%;
   }
   
-.btn_enviar, .btnRegistrar, .btnCancelar{
+  .btn_enviar, .btnRegistrar, .btnCancelar{
 
   width: 35%;
   margin-top: 2%;
   padding: 8px 18px;
   font-size: 18px;
-}
-.container_header {
+ }
+  .container_header {
   height: 20%;
-}
+ }
+
+ .card{ 
+  width: 90%;
+  padding: 2%;
+} 
+
 }
 
 @media(min-width: 580px) and (max-width: 679px){
@@ -368,6 +379,11 @@ body{
   .copy {
     line-height: 30px;
   }
+
+  .card{ 
+    width: 90%;
+    padding: 2%;
+  } 
 }
 
 @media(min-width: 380px) and (max-width: 579px){
@@ -411,6 +427,17 @@ body{
     height: auto;
     padding: 2%;
   }
+
+  .card{ 
+    width: 95%;
+    padding: 2%;
+  } 
+
+  .card > .title-card,.data-card,.text-mail,.text-telefono,.text-msn{ 
+   font-size: 15px;
+  } 
+
+  
 }
 
  

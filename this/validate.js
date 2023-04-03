@@ -40,7 +40,7 @@ class Validate{
     }
 
     validText(values){
-        const textRX =/^([a-zA-Z\dñÑáéíóúÁÉÍÓÚ^\d]+\s){20,50}$/g;
+        const textRX =/^([a-zA-Z\dñÑáéíóúÁÉÍÓÚ^\d.,-_]+\s){20,50}$/g;
         //aqui comparamos el valor con el patron creado 
         const respuesta = values.match(textRX) ? true : false;
         //devuelve true o false
